@@ -3,7 +3,7 @@
 
 A modern, responsive, and lightweight web application designed to provide accurate **Sehri and Iftar timings** for **Gaibandha** and surrounding **North Bengal districts** for the holy month of Ramadan 2026.
 
-![Project Preview](https://rangpur-roza.vercel.app/assets/img/preview.jpg)
+![Project Preview](/assets/img/preview.png)
 
 ## ✨ Features
 
@@ -72,4 +72,5 @@ Made with ❤️ for the community.
 ## 📄 License
 
 This project is open-source and available for non-commercial use. Data source: **Islamic Foundation Bangladesh**.
+
 
