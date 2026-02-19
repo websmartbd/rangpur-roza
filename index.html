@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রমযান সময়সূচি ২০২৬ — গাইবান্ধা ও উত্তরবঙ্গ</title>
+
+    <!-- Standard SEO -->
+    <meta name="description"
+        content="গাইবান্ধা, রংপুর, কুড়িগ্রাম, লালমনিরহাট, নীলফামারী, দিনাজপুর, ঠাকুরগাঁও ও পঞ্চগড় জেলার সেহরি ও ইফতারের সঠিক সময়সূচি ২০২৬। ইসলামিক ফাউন্ডেশন অনুযায়ী নির্ভুল সময়।">
+    <meta name="keywords"
+        content="Ramadan Schedule 2026, Iftar time, Sehri time, Ramadan Calendar Bangladesh, রমজান সময়সূচি ২০২৬, সেহরি ও ইফতারের সময়, গাইবান্ধা রমজান, রংপুর রমজান">
+    <meta name="author" content="B.M Shifat">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-website-url.com/">
+    <meta property="og:title" content="রমযান সময়সূচি ২০২৬ — উত্তরবঙ্গ">
+    <meta property="og:description"
+        content="গাইবান্ধা ও উত্তরবঙ্গের সকল জেলার সেহরি ও ইফতারের সঠিক সময়সূচি এবং কাউন্টডাউন।">
+    <meta property="og:image" content="https://your-website-url.com/assets/img/preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-website-url.com/">
+    <meta property="twitter:title" content="রমযান সময়সূচি ২০২৬ — উত্তরবঙ্গ">
+    <meta property="twitter:description"
+        content="গাইবান্ধা ও উত্তরবঙ্গের সকল জেলার সেহরি ও ইফতারের সঠিক সময়সূচি এবং কাউন্টডাউন।">
+    <meta property="twitter:image" content="https://your-website-url.com/assets/img/preview.jpg">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1a6b5a">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/ramadan.png?v=2">
+    <link rel="apple-touch-icon" href="assets/img/ramadan.png?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- DISTRICT SELECTOR MODAL -->
+    <div id="dist-modal">
+        <div class="modal-content fade-in">
+            <div class="crescent" style="margin-bottom: 12px;">
+                <img src="assets/img/ramadan.png" alt="Ramadan Moon"
+                    style="height: 40px; display: block; margin: 0 auto;">
+            </div>
+            <h2>আপনার জেলা নির্বাচন করুন</h2>
+            <div class="dist-grid">
+                <button class="dist-btn" onclick="selectDistrict('gaibandha')">
+                    <i class="fa-solid fa-location-dot"></i> গাইবান্ধা
+                </button>
+                <button class="dist-btn" onclick="selectDistrict('rangpur')">
+                    <i class="fa-solid fa-location-dot"></i> রংপুর
+                </button>
+                <button class="dist-btn" onclick="selectDistrict('kurigram')">
+                    <i class="fa-solid fa-location-dot"></i> কুড়িগ্রাম
+                </button>
+                <button class="dist-btn" onclick="selectDistrict('lalmonirhat')">
+                    <i class="fa-solid fa-location-dot"></i> লালমনিরহাট
+                </button>
+                <button class="dist-btn" onclick="selectDistrict('nilphamari')">
+                    <i class="fa-solid fa-location-dot"></i> নীলফামারী
+                </button>
+                <button class="dist-btn" onclick="selectDistrict('dinajpur')">
+                    <i class="fa-solid fa-location-dot"></i> দিনাজপুর
+                </button>
+                <button class="dist-btn" onclick="selectDistrict('thakurgaon')">
+                    <i class="fa-solid fa-location-dot"></i> ঠাকুরগাঁও
+                </button>
+                <button class="dist-btn" onclick="selectDistrict('panchagarh')">
+                    <i class="fa-solid fa-location-dot"></i> পঞ্চগড়
+                </button>
+            </div>
+            <p style="margin-top: 20px; font-size: 12px; color: var(--text2);">জেলা অনুযায়ী সময়ের পার্থক্য হতে পারে</p>
+        </div>
+    </div>
+
+    <div class="header" style="position: relative;">
+        <button class="btn-config" onclick="showModal()"><i class="fa-solid fa-gear"></i> পরিবর্তন</button>
+        <div class="crescent"><img src="assets/img/ramadan.png" alt="Ramadan Moon" style="height: 48px;"></div>
+        <h1>সাহরী-ইফতার সময়সূচি</h1>
+        <p class="sub">পবিত্র মাহে রমযান ১৪৪৭ হিজরী &bull; ২০২৬</p>
+        <div class="jela-tag"><i class="fa-solid fa-location-dot"></i> <span id="current-jela">গাইবান্ধা জেলা</span>
+        </div>
+    </div>
+
+    <!-- STATUS MESSAGE (Loading/Error) -->
+    <div id="status-msg"></div>
+
+    <!-- TODAY VIEW -->
+    <div id="today-view" class="fade-in">
+        <div class="today-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                <div class="day-label" style="margin:0;"><i class="fa-solid fa-moon"
+                        style="color:var(--accent);margin-right:5px;"></i>আজকের রমযান</div>
+                <div class="day-num" id="td-day" style="font-size:42px;">—</div>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <div class="day-date" id="td-date" style="margin:0;"></div>
+                <div id="ashra-badge" style="font-size:12px;color:var(--accent);"></div>
+            </div>
+            <div class="times-grid">
+                <div class="time-item sehri">
+                    <div class="t-icon"><i class="fa-solid fa-cloud-moon" style="color:var(--sehri);"></i></div>
+                    <div class="t-label">সাহরী শেষ</div>
+                    <div class="t-val" id="td-sehri">—</div>
+                </div>
+                <div class="time-item fajr">
+                    <div class="t-icon"><i class="fa-solid fa-mosque" style="color:var(--fajr);"></i></div>
+                    <div class="t-label">ফজর আযান</div>
+                    <div class="t-val" id="td-fajr">—</div>
+                </div>
+                <div class="time-item iftar">
+                    <div class="t-icon"><i class="fa-solid fa-sun" style="color:var(--iftar);"></i></div>
+                    <div class="t-label">ইফতার</div>
+                    <div class="t-val" id="td-iftar">—</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="countdown">
+            <div class="cd-label">
+                <i class="fa-solid fa-hourglass-half" style="color:var(--accent);margin-right:4px;"></i>
+                <span id="cd-title">ইফতার পর্যন্ত বাকি</span>
+            </div>
+            <div class="cd-boxes">
+                <div class="cd-box"><span class="num" id="cd-h">০০</span><span class="lbl">ঘণ্টা</span></div>
+                <span class="cd-sep">:</span>
+                <div class="cd-box"><span class="num" id="cd-m">০০</span><span class="lbl">মিনিট</span></div>
+                <span class="cd-sep">:</span>
+                <div class="cd-box"><span class="num" id="cd-s">০০</span><span class="lbl">সেকেন্ড</span></div>
+            </div>
+        </div>
+
+        <button class="btn-full-table" onclick="showFullTable()">
+            <i class="fa-solid fa-table-list"></i> সম্পূর্ণ সময়সূচি দেখুন
+        </button>
+        <footer>
+            <div>তথ্যসূত্র: ইসলামিক ফাউন্ডেশন বাংলাদেশ</div>
+            <div style="margin-top: 8px; font-size: 10px; opacity: 0.8;">
+                Made with <i class="fa-solid fa-heart" style="color:#e11d48;"></i> by <a
+                    href="https://www.facebook.com/bmshifat0" target="_blank"
+                    style="color:inherit; text-decoration:none; font-weight:600;">B.M Shifat</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- FULL TABLE VIEW -->
+    <div id="table-view">
+        <div class="table-header">
+            <button class="btn-back" onclick="showToday()"><i class="fa-solid fa-chevron-left"></i> ফিরে যান</button>
+            <div class="th-title"><span id="table-jela">গাইবান্ধা</span> — পূর্ণ সময়সূচি</div>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th><i class="fa-solid fa-moon" style="font-size:10px;color:var(--accent);"></i> রমযান</th>
+                        <th><i class="fa-regular fa-calendar" style="font-size:10px;"></i> তারিখ</th>
+                        <th style="color:var(--sehri);"><i class="fa-solid fa-cloud-moon" style="font-size:10px;"></i>
+                            সাহরী
+                            শেষ</th>
+                        <th style="color:var(--fajr);"><i class="fa-solid fa-mosque" style="font-size:10px;"></i> ফজর
+                            আযান
+                        </th>
+                        <th style="color:var(--iftar);"><i class="fa-solid fa-sun" style="font-size:10px;"></i> ইফতার
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="tbl-body"></tbody>
+            </table>
+        </div>
+        <footer>
+            <div>তথ্যসূত্র: ইসলামিক ফাউন্ডেশন বাংলাদেশ</div>
+            <div style="margin-top: 8px; font-size: 10px; opacity: 0.8;">
+                Made with <i class="fa-solid fa-heart" style="color:#e11d48;"></i> by <a
+                    href="https://www.facebook.com/bmshifat0" target="_blank"
+                    style="color:inherit; text-decoration:none; font-weight:600;">B.M Shifat</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+{
+    "district": "পঞ্চগড়",
+    "schedule": [
+        {
+            "r": 1,
+            "date": "১৯ ফেব্রুয়ারি",
+            "sehri": "৫:২০",
+            "fajr": "৫:২৩",
+            "iftar": "৬:০২"
+        },
+        {
+            "r": 2,
+            "date": "২০ ফেব্রুয়ারি",
+            "sehri": "৫:১৯",
+            "fajr": "৫:২২",
+            "iftar": "৬:০৩"
+        },
+        {
+            "r": 3,
+            "date": "২১ ফেব্রুয়ারি",
+            "sehri": "৫:১৮",
+            "fajr": "৫:২১",
+            "iftar": "৬:০৪"
+        },
+        {
+            "r": 4,
+            "date": "২২ ফেব্রুয়ারি",
+            "sehri": "৫:১৭",
+            "fajr": "৫:২০",
+            "iftar": "৬:০৪"
+        },
+        {
+            "r": 5,
+            "date": "২৩ ফেব্রুয়ারি",
+            "sehri": "৫:১৭",
+            "fajr": "৫:১৯",
+            "iftar": "৬:০৫"
+        },
+        {
+            "r": 6,
+            "date": "২৪ ফেব্রুয়ারি",
+            "sehri": "৫:১৬",
+            "fajr": "৫:১৯",
+            "iftar": "৬:০৫"
+        },
+        {
+            "r": 7,
+            "date": "২৫ ফেব্রুয়ারি",
+            "sehri": "৫:১৫",
+            "fajr": "৫:১৮",
+            "iftar": "৬:০৬"
+        },
+        {
+            "r": 8,
+            "date": "২৬ ফেব্রুয়ারি",
+            "sehri": "৫:১৪",
+            "fajr": "৫:১৭",
+            "iftar": "৬:০৭"
+        },
+        {
+            "r": 9,
+            "date": "২৭ ফেব্রুয়ারি",
+            "sehri": "৫:১৩",
+            "fajr": "৫:১৬",
+            "iftar": "৬:০৭"
+        },
+        {
+            "r": 10,
+            "date": "২৮ ফেব্রুয়ারি",
+            "sehri": "৫:১২",
+            "fajr": "৫:১৫",
+            "iftar": "৬:০৮"
+        },
+        {
+            "r": 11,
+            "date": "০১ মার্চ",
+            "sehri": "৫:১১",
+            "fajr": "৫:১৪",
+            "iftar": "৬:০৮"
+        },
+        {
+            "r": 12,
+            "date": "০২ মার্চ",
+            "sehri": "৫:১১",
+            "fajr": "৫:১৩",
+            "iftar": "৬:০৯"
+        },
+        {
+            "r": 13,
+            "date": "০৩ মার্চ",
+            "sehri": "৫:১০",
+            "fajr": "৫:১২",
+            "iftar": "৬:০৯"
+        },
+        {
+            "r": 14,
+            "date": "০৪ মার্চ",
+            "sehri": "৫:০৯",
+            "fajr": "৫:১১",
+            "iftar": "৬:১০"
+        },
+        {
+            "r": 15,
+            "date": "০৫ মার্চ",
+            "sehri": "৫:০৮",
+            "fajr": "৫:১০",
+            "iftar": "৬:১০"
+        },
+        {
+            "r": 16,
+            "date": "০৬ মার্চ",
+            "sehri": "৫:০৭",
+            "fajr": "৫:১০",
+            "iftar": "৬:১১"
+        },
+        {
+            "r": 17,
+            "date": "০৭ মার্চ",
+            "sehri": "৫:০৬",
+            "fajr": "৫:০৯",
+            "iftar": "৬:১২"
+        },
+        {
+            "r": 18,
+            "date": "০৮ মার্চ",
+            "sehri": "৫:০৫",
+            "fajr": "৫:০৮",
+            "iftar": "৬:১২"
+        },
+        {
+            "r": 19,
+            "date": "০৯ মার্চ",
+            "sehri": "৫:০৪",
+            "fajr": "৫:০৭",
+            "iftar": "৬:১৩"
+        },
+        {
+            "r": 20,
+            "date": "১০ মার্চ",
+            "sehri": "৫:০৩",
+            "fajr": "৫:০৫",
+            "iftar": "৬:১৩"
+        },
+        {
+            "r": 21,
+            "date": "১১ মার্চ",
+            "sehri": "৫:০২",
+            "fajr": "৫:০৪",
+            "iftar": "৬:১৪"
+        },
+        {
+            "r": 22,
+            "date": "১২ মার্চ",
+            "sehri": "৫:০১",
+            "fajr": "৫:০৩",
+            "iftar": "৬:১৪"
+        },
+        {
+            "r": 23,
+            "date": "১৩ মার্চ",
+            "sehri": "৫:০০",
+            "fajr": "৫:০২",
+            "iftar": "৬:১৫"
+        },
+        {
+            "r": 24,
+            "date": "১৪ মার্চ",
+            "sehri": "৪:৫৮",
+            "fajr": "৫:০১",
+            "iftar": "৬:১৫"
+        },
+        {
+            "r": 25,
+            "date": "১৫ মার্চ",
+            "sehri": "৪:৫৭",
+            "fajr": "৫:০০",
+            "iftar": "৬:১৬"
+        },
+        {
+            "r": 26,
+            "date": "১৬ মার্চ",
+            "sehri": "৪:৫৬",
+            "fajr": "৪:৫৯",
+            "iftar": "৬:১৬"
+        },
+        {
+            "r": 27,
+            "date": "১৭ মার্চ",
+            "sehri": "৪:৫View content of up to 5 code item nodes in a file, each as a class or a function. You must use fully qualified code item names, such as those return by the grep_search or other tools. For example, if you have a class called `Foo` and you want to view the function definition `bar` in the `Foo` class, you would use `Foo.bar` as the NodeName. Do not request to view a symbol if the contents have been previously shown by the codebase_search tool. If the symbol is not found in a file, the tool will return an empty string instead.৫",
+            "fajr": "৪:৫৮",
+            "iftar": "৬:১৭"
+        },
+        {
+            "r": 28,
+            "date": "১৮ মার্চ",
+            "sehri": "৪:৫৪",
+            "fajr": "৪:৫৭",
+            "iftar": "৬:১৭"
+        },
+        {
+            "r": 29,
+            "date": "১৯ মার্চ",
+            "sehri": "৪:৫৩",
+            "fajr": "৪:৫৬",
+            "iftar": "৬:১৮"
+        },
+        {
+            "r": 30,
+            "date": "২০ মার্চ",
+            "sehri": "৪:৫২",
+            "fajr": "৪:৫৫",
+            "iftar": "৬:১৮"
+        }
+    ]
+}
